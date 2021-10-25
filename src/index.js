@@ -5,6 +5,7 @@ import {Provider} from 'react-redux'
 import {store} from './store/store'
 import './styles/login.css'
 import Search from './components/Search';
+import App from './components/App';
 
 
 
@@ -13,7 +14,7 @@ import Search from './components/Search';
 ReactDOM.render(
   <Provider store={store}>
   {/* <AppRouter /> */}
-  <Search />
+ <App />
  
   
 </Provider>,

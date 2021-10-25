@@ -1,12 +1,18 @@
 import React from 'react'
 
-const Search = () => {
+const Search = (props) => {
     return (
         <div className="search-container">
-            <h1>Hola Buscador</h1>
+            <input 
+            type="text" 
+            placeholder="Search location"
+            onChange={(e) =>props.changeSearch(e)}
+            value={props.input}
+            />
+            <button onClick={props.submit}>Search</button>
             
         </div>
-    )
+    )   
 }
 
 export default Search

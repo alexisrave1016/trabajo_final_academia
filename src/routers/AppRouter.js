@@ -6,7 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Login from "../components/Login";
-import {App} from "../components/App";
+import App from "../components/App";
 import { useDispatch } from "react-redux";
 import { loginEmailPassword } from "../actions/actionLogin";
 import { useEffect } from "react";
